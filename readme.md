@@ -20,6 +20,12 @@ Because I’d already created a bunch of palettes manually for [this post
 on my
 blog](https://johnmackintosh.net/blog/2018-01-29-hardwired-for-tidy-text/)
 
+## Credit
+
+Thanks to Kelly Cotton for [the nycpalettes
+package](https://github.com/kellycotton/nycpalettes) which this was
+extremely heavily based on
+
 ## I need this in my life
 
 Of course you do
