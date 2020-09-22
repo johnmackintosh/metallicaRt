@@ -1,0 +1,39 @@
+---
+title: "metallicaRt"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# metallicaRt <img src="man/figures/metaillicart.jpg" width="160px"/> 
+
+
+## What?
+
+On a whim, this is a collection of colour palettes based on Metallica album covers.
+
+## Why?
+
+Because I saw [this post]("https://github.com/annahensch/R-tutorials/blob/master/ggplot-on-fire.md") on Twitter
+
+
+## But still, ...why?
+
+Because I'd already created a bunch of palettes manually for [this post on my blog]("https://johnmackintosh.net/blog/2018-01-29-hardwired-for-tidy-text/")
+
+
+## I need this in my life
+
+Of course you do
+
+```{r}
+library(remotes)
+remotes::install_github("johnmackintosh/metallicaRt")
+```
+
+
+
+
