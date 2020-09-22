@@ -29,5 +29,16 @@ library(remotes)
 remotes::install_github("johnmackintosh/metallicaRt")
 ```
 
-    ## Skipping install of 'metallicaRt' from a github remote, the SHA1 (8ec060c0) has not changed since last install.
-    ##   Use `force = TRUE` to force installation
+    ## Downloading GitHub repo johnmackintosh/metallicaRt@HEAD
+
+    ##          checking for file 'C:\Users\datag\AppData\Local\Temp\RtmpKChRfs\remotes27007c0c21d0\johnmackintosh-metallicaRt-2cd1ece/DESCRIPTION' ...  v  checking for file 'C:\Users\datag\AppData\Local\Temp\RtmpKChRfs\remotes27007c0c21d0\johnmackintosh-metallicaRt-2cd1ece/DESCRIPTION' (342ms)
+    ##       -  preparing 'metallicaRt':
+    ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   v  checking DESCRIPTION meta-information
+    ##       -  checking for LF line-endings in source and make files and shell scripts
+    ##   -  checking for empty or unneeded directories
+    ##       -  building 'metallicaRt_0.0.0.9000.tar.gz'
+    ##      
+    ## 
+
+    ## Installing package into 'C:/Users/datag/OneDrive/Documents/R/win-library/4.0'
+    ## (as 'lib' is unspecified)
