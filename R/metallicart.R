@@ -32,15 +32,20 @@ met_palettes <- list (
 #' This package is based on the nycpalettes package: https://github.com/kellycotton/nycpalettes
 #'
 #' @param name Name of palette. Select one:
-#' \code{kill}, code{kill10},\code{lightning},\code{lightning10}, \code{puppets}, \code{puppets10},
-#' \code{justice}, \code{justice10}, \code{metallica}, \code{metallica10}, \code{load},
-#' \code{load10}, \code{reload}, \code{reload10}, \code{anger}, \code{anger10}, 
-#' \code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10}, \code{combo}
+#' \code{kill}, code{kill10}, \code{lightning}, \code{lightning10}, 
+#' \code{puppets}, \code{puppets10},\code{justice}, \code{justice10},
+#' \code{metallica}, \code{metallica10}, \code{load},\code{load10},
+#' \code{reload}, \code{reload10}, \code{anger}, \code{anger10}, 
+#' \code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10}, 
+#' \code{combo}
 #'
 #' @param n Number of colors desired. 
 #' 
-#' Some palettes contain 7 colors, except the \code{combo} palette and those ending with '10'.
-#' Those palettes have 10 colours.
+#' Some palettes contain 7 colors which were picked 'by hand'
+#' The \code{combo} palette and those ending with '10' have 10 colours.
+#' Apart from \code{combo} palette, these were produced with the
+#' aid of the \code{colorfindr} package :
+#' https://CRAN.R-project.org/package=colorfindr
 #'
 #' @param type Either continuous or discrete.
 #'
@@ -86,7 +91,7 @@ print.palette <- function(x, ...) {
   rect(0, 0.95, n + 1, 1.05, col = rgb(1, 1, 1, 0.7), border = NA)
   text((n + 1) / 2, 1, labels = attr(x,"name"), cex = 1, family = "serif")
   for (i in 1:n) {
-    rect(i-.5, .65, i+.5, .75, col = rgb(1, 1, 1, 0.7), border = NA)
+    rect(i - .5, .65, i + .5, .75, col = rgb(1, 1, 1, 0.7), border = NA)
     text(i, .7, labels = x[i], cex = 1, family = "serif")
   }
 }
