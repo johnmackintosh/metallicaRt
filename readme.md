@@ -48,13 +48,13 @@ library(metallicaRt)
 metalli_palette("kill")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
 
 ``` r
 metalli_palette("kill10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-3-1.png)<!-- -->
 
 ## Ride The Lightning
 
@@ -62,13 +62,13 @@ metalli_palette("kill10")
 metalli_palette("lightning")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
 
 ``` r
 metalli_palette("lightning10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-5-1.png)<!-- -->
 
 ## Master of Puppets
 
@@ -76,13 +76,13 @@ metalli_palette("lightning10")
 metalli_palette("puppets")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
 
 ``` r
 metalli_palette("puppets10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-7-1.png)<!-- -->
 
 ## …And Justice For All
 
@@ -90,13 +90,13 @@ metalli_palette("puppets10")
 metalli_palette("justice")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-8-1.png)<!-- -->
 
 ``` r
 metalli_palette("justice10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-9-1.png)<!-- -->
 
 ## Metallica
 
@@ -106,13 +106,13 @@ How much more black could it be?
 metalli_palette("metallica")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-10-1.png)<!-- -->
 
 ``` r
 metalli_palette("metallica10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-11-1.png)<!-- -->
 
 ## Load
 
@@ -122,13 +122,13 @@ Under-rated
 metalli_palette("load")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-12-1.png)<!-- -->
 
 ``` r
 metalli_palette("load10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-13-1.png)<!-- -->
 
 ## Reload
 
@@ -136,13 +136,13 @@ metalli_palette("load10")
 metalli_palette("reload")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-14-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-14-1.png)<!-- -->
 
 ``` r
 metalli_palette("reload10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-15-1.png)<!-- -->
 
 ## St. Anger
 
@@ -150,13 +150,13 @@ metalli_palette("reload10")
 metalli_palette("anger")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-16-1.png)<!-- -->
 
 ``` r
 metalli_palette("anger10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-17-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-17-1.png)<!-- -->
 
 ## Death Magnetic
 
@@ -164,13 +164,13 @@ metalli_palette("anger10")
 metalli_palette("magnetic")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-18-1.png)<!-- -->
 
 ``` r
 metalli_palette("magnetic10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-19-1.png)<!-- -->
 
 ## Hardwired…To Self Destruct
 
@@ -178,13 +178,13 @@ metalli_palette("magnetic10")
 metalli_palette("hardwired")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-20-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
 metalli_palette("hardwired10")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-21-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-21-1.png)<!-- -->
 
 ## Killer combo
 
@@ -192,4 +192,4 @@ metalli_palette("hardwired10")
 metalli_palette("combo")
 ```
 
-![](readme_files/figure-gfm/unnamed-chunk-22-1.png)<!-- -->
+![](man/figures/README-unnamed-chunk-22-1.png)<!-- -->

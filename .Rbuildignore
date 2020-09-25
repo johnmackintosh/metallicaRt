@@ -4,3 +4,5 @@
 readme.md
 readme.rmd
 ^\.travis\.yml$
+^README\.Rmd$
+^README-.*\.png$
