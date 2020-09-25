@@ -7,8 +7,11 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<!-- badges: start -->
+  [![Travis build status](https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master)](https://travis-ci.com/johnmackintosh/metallicaRt)
+  <!-- badges: end -->
 
-# metallicaRt <img src="man/figures/metallicart.jpg" width="160px" align="right"/> 
+# <img src="man/figures/metallicart.jpg" width="160px" align="right"/> 
 
 
 ## What?

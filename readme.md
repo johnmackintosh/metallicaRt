@@ -1,7 +1,13 @@
 metallicaRt
 ================
 
-# metallicaRt <img src="man/figures/metallicart.jpg" width="160px" align="right"/>
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master)](https://travis-ci.com/johnmackintosh/metallicaRt)
+<!-- badges: end -->
+
+# <img src="man/figures/metallicart.jpg" width="160px" align="right"/>
 
 ## What?
 

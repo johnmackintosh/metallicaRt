@@ -8,13 +8,20 @@ metalli_palette(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{name}{Name of palette. Select one:
-\code{kill}, \code{lightning}, \code{puppets}, \code{justice},
-\code{metallica}, \code{load}, \code{reload}, \code{anger},
-\code{magnetic}, \code{hardwired}, \code{combo}}
+\code{kill}, code{kill10}, \code{lightning}, \code{lightning10},
+\code{puppets}, \code{puppets10},\code{justice}, \code{justice10},
+\code{metallica}, \code{metallica10}, \code{load},\code{load10},
+\code{reload}, \code{reload10}, \code{anger}, \code{anger10},
+\code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10},
+\code{combo}}
 
 \item{n}{Number of colors desired.
 
-Palettes contain 7 colors, except the \code{combo} palette, which has 10.}
+Some palettes contain 7 colors which were picked 'by hand'
+The \code{combo} palette and those ending with '10' have 10 colours.
+Apart from \code{combo} palette, these were produced with the
+aid of the \code{colorfindr} package :
+https://CRAN.R-project.org/package=colorfindr}
 
 \item{type}{Either continuous or discrete.}
 }
