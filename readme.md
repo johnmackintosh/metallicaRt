@@ -14,6 +14,8 @@ status](https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master)](htt
 On a whim, this is a collection of colour palettes based on Metallica
 album covers.
 
+Each is named using an abbreviation of the relevant album.
+
 ## Why?
 
 Because I saw [this
@@ -25,6 +27,15 @@ on Twitter
 Because I’d already created a bunch of palettes manually for [this post
 on my
 blog](https://johnmackintosh.net/blog/2018-01-29-hardwired-for-tidy-text/)
+
+## How?
+
+I produced the palettes with 7 colours using an online tool, when I
+produced my blog post originally. I also put together the ‘combo’
+palette.
+
+Palettes that end with ‘10’ were created using
+[colorfindr](https://CRAN.R-project.org/package=colorfindr)
 
 ## Credit
 
@@ -186,7 +197,7 @@ metalli_palette("hardwired10")
 
 ![](man/figures/README-unnamed-chunk-21-1.png)<!-- -->
 
-## Killer combo
+## Metal up your palette
 
 ``` r
 metalli_palette("combo")
