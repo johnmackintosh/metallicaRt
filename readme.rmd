@@ -59,6 +59,91 @@ library(metallicaRt)
 ```
 
 
+## Data Viz Friendly
+
+These mini palettes _might_ actually be useful. 
+
+All named after a song title from the relevant album
+
+
+```{r}
+metalli_palette("whiplash")
+
+```
+
+
+```{r}
+metalli_palette("bells")
+
+```
+
+
+```{r}
+metalli_palette("orion")
+m <- outer(1:20,1:20,function(x,y) sin(sqrt(x*y)/3))
+cols <- metalli_palette("orion")
+Lab.palette <- colorRampPalette(cols,space = "Lab")
+filled.contour(m, col = Lab.palette(20))
+```
+
+
+```{r}
+metalli_palette("blackened")
+
+```
+
+
+
+```{r}
+metalli_palette("roam")
+```
+
+
+
+```{r}
+metalli_palette("bleeding")
+cols <- metalli_palette("bleeding")
+Lab.palette <- colorRampPalette(cols,space = "Lab")
+filled.contour(m, col = Lab.palette(20))
+```
+
+
+
+```{r}
+metalli_palette("fuel")
+```
+
+
+```{r}
+metalli_palette("frantic")
+```
+
+
+```{r}
+metalli_palette("scarred")
+```
+
+
+```{r}
+metalli_palette("revenge")
+cols <- metalli_palette("revenge")
+Lab.palette <- colorRampPalette(cols,space = "Lab")
+filled.contour(m, col = Lab.palette(20))
+
+```
+
+
+
+## Gimme fuel, gimme fire, longer palettes I desire
+
+
+OK then.   
+
+These contain more album specific colors, but might be of less practical use 
+for data visualisation purposes. 
+
+
+
 # Kill 'Em All
 ```{r}
 metalli_palette("kill")
