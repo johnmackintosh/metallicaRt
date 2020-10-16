@@ -237,7 +237,7 @@ metalli_palette("load")
 ![](man/figures/README-unnamed-chunk-22-1.png)<!-- -->
 
 ``` r
-metalli_palette("load10")
+scales::show_col(load_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-23-1.png)<!-- -->
@@ -251,7 +251,7 @@ metalli_palette("reload")
 ![](man/figures/README-unnamed-chunk-24-1.png)<!-- -->
 
 ``` r
-metalli_palette("reload10")
+scales::show_col(reload_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-25-1.png)<!-- -->
@@ -265,7 +265,7 @@ metalli_palette("anger")
 ![](man/figures/README-unnamed-chunk-26-1.png)<!-- -->
 
 ``` r
-metalli_palette("anger10")
+scales::show_col(anger_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-27-1.png)<!-- -->
@@ -279,7 +279,7 @@ metalli_palette("magnetic")
 ![](man/figures/README-unnamed-chunk-28-1.png)<!-- -->
 
 ``` r
-metalli_palette("magnetic10")
+scales::show_col(magnetic_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-29-1.png)<!-- -->
@@ -293,7 +293,7 @@ metalli_palette("hardwired")
 ![](man/figures/README-unnamed-chunk-30-1.png)<!-- -->
 
 ``` r
-metalli_palette("hardwired10")
+scales::show_col(hardwired_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-31-1.png)<!-- -->
@@ -301,7 +301,7 @@ metalli_palette("hardwired10")
 ## Metal up your palette
 
 ``` r
-metalli_palette("combo")
+scales::show_col(combo_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-32-1.png)<!-- -->

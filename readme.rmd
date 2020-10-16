@@ -211,7 +211,7 @@ metalli_palette("load")
 
 
 ```{r}
-metalli_palette("load10")
+scales::show_col(load_pal()(10))
 ```
 
 
@@ -224,7 +224,7 @@ metalli_palette("reload")
 
 
 ```{r}
-metalli_palette("reload10")
+scales::show_col(reload_pal()(10))
 ```
 
 
@@ -236,7 +236,7 @@ metalli_palette("anger")
 
 
 ```{r}
-metalli_palette("anger10")
+scales::show_col(anger_pal()(10))
 ```
 
 
@@ -249,7 +249,7 @@ metalli_palette("magnetic")
 
 
 ```{r}
-metalli_palette("magnetic10")
+scales::show_col(magnetic_pal()(10))
 ```
 
 
@@ -262,12 +262,12 @@ metalli_palette("hardwired")
 
 
 ```{r}
-metalli_palette("hardwired10")
+scales::show_col(hardwired_pal()(10))
 ```
 
 ## Metal up your palette
 
 ```{r}
-metalli_palette("combo")
+scales::show_col(combo_pal()(10))
 ```
 
