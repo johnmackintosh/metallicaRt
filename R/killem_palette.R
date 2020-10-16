@@ -38,7 +38,7 @@ killem_pal <- function(n, type = c("discrete", "continuous"),
                         continuous = grDevices::colorRampPalette(killem)(n),
                         discrete = killem[1:n])
     
-    californication <- scales::manual_pal(killem)
+    killem <- scales::manual_pal(killem)
     
     return(killem)
 }
@@ -99,6 +99,6 @@ scale_fill_killem <- function(n, type = "discrete",
                                               reverse = reverse), ...)
     } else {
         ggplot2::scale_fill_gradientn(colors = killem_pal(n = n, type = type,
-                                                             reverse = reverse)(10
+                                                             reverse = reverse)(10))
     }
 }

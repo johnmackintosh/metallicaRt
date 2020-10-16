@@ -151,18 +151,18 @@ metalli_palette("kill")
 
 
 ```{r}
-metalli_palette("kill10")
+scales::show_col(killem_pal()(10))
 ```
 
 ## Ride  The Lightning
 
 ```{r}
-metalli_palette("lightning")
+metalli_palette("rtl")
 ```
 
 
 ```{r}
-metalli_palette("lightning10")
+scales::show_col(lightning_pal()(10))
 ```
 
 

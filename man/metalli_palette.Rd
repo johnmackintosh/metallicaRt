@@ -8,7 +8,7 @@ metalli_palette(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{name}{Name of palette. Select one:
-\code{kill}, code{kill10}, \code{lightning}, \code{lightning10},
+\code{kill}, \code{kill10}, \code{lightning}, \code{lightning10},
 \code{puppets}, \code{puppets10},\code{justice}, \code{justice10},
 \code{metallica}, \code{metallica10}, \code{load},\code{load10},
 \code{reload}, \code{reload10}, \code{anger}, \code{anger10},

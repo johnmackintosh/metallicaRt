@@ -52,6 +52,8 @@ remotes package.
 #library(remotes)
 #remotes::install_github("johnmackintosh/metallicaRt")
 library(metallicaRt)
+#> Warning: replacing previous import 'vctrs::data_frame' by 'tibble::data_frame'
+#> when loading 'dplyr'
 ```
 
 ## Data Viz Friendly
@@ -161,7 +163,7 @@ metalli_palette("kill")
 ![](man/figures/README-unnamed-chunk-12-1.png)<!-- -->
 
 ``` r
-metalli_palette("kill10")
+scales::show_col(killem_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-13-1.png)<!-- -->
@@ -169,13 +171,13 @@ metalli_palette("kill10")
 ## Ride The Lightning
 
 ``` r
-metalli_palette("lightning")
+metalli_palette("rtl")
 ```
 
 ![](man/figures/README-unnamed-chunk-14-1.png)<!-- -->
 
 ``` r
-metalli_palette("lightning10")
+scales::show_col(lightning_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-15-1.png)<!-- -->
