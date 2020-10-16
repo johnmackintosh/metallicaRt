@@ -191,7 +191,7 @@ metalli_palette("puppets")
 ![](man/figures/README-unnamed-chunk-16-1.png)<!-- -->
 
 ``` r
-metalli_palette("puppets10")
+scales::show_col(puppets_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-17-1.png)<!-- -->
@@ -205,7 +205,7 @@ metalli_palette("justice")
 ![](man/figures/README-unnamed-chunk-18-1.png)<!-- -->
 
 ``` r
-metalli_palette("justice10")
+scales::show_col(justice_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-19-1.png)<!-- -->
@@ -221,7 +221,7 @@ metalli_palette("metallica")
 ![](man/figures/README-unnamed-chunk-20-1.png)<!-- -->
 
 ``` r
-metalli_palette("metallica10")
+scales::show_col(metallica_pal()(10))
 ```
 
 ![](man/figures/README-unnamed-chunk-21-1.png)<!-- -->

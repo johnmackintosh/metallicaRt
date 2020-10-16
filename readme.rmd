@@ -173,7 +173,7 @@ metalli_palette("puppets")
 ```
 
 ```{r}
-metalli_palette("puppets10")
+scales::show_col(puppets_pal()(10))
 ```
 
 
@@ -185,7 +185,7 @@ metalli_palette("justice")
 
 
 ```{r}
-metalli_palette("justice10")
+scales::show_col(justice_pal()(10))
 ```
 
 ## Metallica
@@ -198,7 +198,7 @@ metalli_palette("metallica")
 
 
 ```{r}
-metalli_palette("metallica10")
+scales::show_col(metallica_pal()(10))
 ```
 
 
