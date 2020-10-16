@@ -1,15 +1,5 @@
-killem_palette <- c(
-    "#e0dcc2", 
-    "#88b1c1", 
-    "#23ccfa", 
-    "#b77d65",
-    "#db263a",
-    "#e05b1d",
-    "#1285da",
-    "#28229a",
-    "#51473f",
-    "#1c150f"
-)
+killem_palette <- c("#000000", "#E4E6D8", "#A8A8A8", "#CE0000", "#FF0204",
+            "#7D0109", "#DCFFFE", "#EEE2E4", "#E9ACA7", "#F83634")
 
 #' @title killem palette
 #' @description killem palette
