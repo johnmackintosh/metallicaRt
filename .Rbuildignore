@@ -9,3 +9,4 @@ readme.rmd
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^\.github$

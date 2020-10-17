@@ -19,3 +19,5 @@ Imports:
 Suggests: 
     dplyr,
     gapminder
+URL: https://github.com/johnmackintosh/metallicaRt
+BugReports: https://github.com/johnmackintosh/metallicaRt/issues
