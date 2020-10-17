@@ -24,9 +24,7 @@ on Twitter
 
 ## But still, …why?
 
-Because I’d already created a bunch of palettes manually for [this post
-on my
-blog](https://johnmackintosh.net/blog/2018-01-29-hardwired-for-tidy-text/)
+Because I’d already created a bunch of palettes manually for [the Hardwired...For TidyText text mining post on my blog](https://johnmackintosh.net/blog/2018-01-29-hardwired-for-tidy-text/)
 
 ## How?
 
