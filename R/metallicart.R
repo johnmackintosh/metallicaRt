@@ -89,10 +89,4 @@ print.palette <- function(x, ...) {
   image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
   
-  rect(0, 0.95, n + 1, 1.05, col = rgb(1, 1, 1, 0.7), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x,"name"), cex = 1, family = "serif")
-  for (i in 1:n) {
-    rect(i - .5, .65, i + .5, .75, col = rgb(1, 1, 1, 0.7), border = NA)
-    text(i, .7, labels = x[i], cex = 1, family = "serif")
-  }
 }
