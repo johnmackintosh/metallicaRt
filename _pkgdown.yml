@@ -1,11 +1,3 @@
 template:
   params:
     bootswatch: slate
-  image:
-      src: man/figures/metallicart.png
-      alt: "metallicaRt logo"
-    twitter:
-      creator: "@_johnmackintosh"
-      site: "johnmackintosh.com/metallicaRt/"
-      card: summary_large_image
-      
