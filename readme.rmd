@@ -7,7 +7,9 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-"
+  fig.path = "man/figures/README-",
+  fig.width = 3,
+  fig.height = 2
 )
 ```
 
@@ -69,70 +71,27 @@ These mini palettes _might_ actually be useful.
 All named after a song title from the relevant album
 
 
-```{r}
+```{r first4, fig.show="hold", out.width= "25%"}
 metalli_palette("whiplash")
-
-```
-
-
-```{r}
 metalli_palette("bells")
-
-```
-
-
-```{r}
 metalli_palette("orion")
-m <- outer(1:20,1:20,function(x,y) sin(sqrt(x*y)/3))
-cols <- metalli_palette("orion")
-Lab.palette <- colorRampPalette(cols,space = "Lab")
-filled.contour(m, col = Lab.palette(20))
-```
-
-
-```{r}
 metalli_palette("blackened")
-
 ```
 
 
 
-```{r}
+```{r roam,  fig.show="hold", out.width = "33%"}
 metalli_palette("roam")
-```
-
-
-
-```{r}
 metalli_palette("bleeding")
-cols <- metalli_palette("bleeding")
-Lab.palette <- colorRampPalette(cols,space = "Lab")
-filled.contour(m, col = Lab.palette(20))
-```
-
-
-
-```{r}
 metalli_palette("fuel")
 ```
 
 
-```{r}
+
+```{r frantic, fig.show="hold", out.width = "33%"}
 metalli_palette("frantic")
-```
-
-
-```{r}
 metalli_palette("scarred")
-```
-
-
-```{r}
 metalli_palette("revenge")
-cols <- metalli_palette("revenge")
-Lab.palette <- colorRampPalette(cols,space = "Lab")
-filled.contour(m, col = Lab.palette(20))
-
 ```
 
 
@@ -148,30 +107,23 @@ for data visualisation purposes.
 
 
 # Kill 'Em All
-```{r}
+```{r kill,  fig.show="hold", out.width = "50%"}
 metalli_palette("kill")
+scales::show_col(killem_pal()(10), labels = FALSE)
 ```
 
-
-```{r}
-scales::show_col(killem_pal()(10))
-```
 
 ## Ride  The Lightning
 
-```{r}
+```{r rtl,fig.show="hold", out.width = "50%" }
 metalli_palette("rtl")
-```
-
-
-```{r}
-scales::show_col(lightning_pal()(10))
+scales::show_col(lightning_pal()(10), labels = FALSE)
 ```
 
 
 ## Master of Puppets
 
-```{r}
+```{r mop, fig.show="hold", out.width = "50%" }
 metalli_palette("puppets")
 ```
 
@@ -187,7 +139,7 @@ metalli_palette("justice")
 ```
 
 
-```{r}
+```{r ajfa, fig.show="hold", out.width = "50%" }
 scales::show_col(justice_pal()(10))
 ```
 
@@ -195,7 +147,7 @@ scales::show_col(justice_pal()(10))
 
 How much more black could it be?
 
-```{r}
+```{r metallica,fig.show="hold", out.width = "50%" }
 metalli_palette("metallica")
 ```
 
@@ -208,7 +160,7 @@ scales::show_col(metallica_pal()(10))
 ## Load
 Under-rated
 
-```{r}
+```{r load,fig.show="hold", out.width = "50%" }
 metalli_palette("load")
 ```
 
@@ -221,7 +173,7 @@ scales::show_col(load_pal()(10))
 
 ## Reload
 
-```{r}
+```{r reload, fig.show="hold", out.width = "50%" }
 metalli_palette("reload")
 ```
 
@@ -233,7 +185,7 @@ scales::show_col(reload_pal()(10))
 
 ## St. Anger
 
-```{r}
+```{r stanger, fig.show="hold", out.width = "50%" }
 metalli_palette("anger")
 ```
 
@@ -246,7 +198,7 @@ scales::show_col(anger_pal()(10))
 ## Death Magnetic
 
 
-```{r}
+```{r magnetic, fig.show="hold", out.width = "50%" }
 metalli_palette("magnetic")
 ```
 
@@ -259,7 +211,7 @@ scales::show_col(magnetic_pal()(10))
 
 ## Hardwired...To Self Destruct
 
-```{r}
+```{r destruct, fig.show="hold", out.width = "50%" }
 metalli_palette("hardwired")
 ```
 
@@ -270,7 +222,7 @@ scales::show_col(hardwired_pal()(10))
 
 ## Metal up your palette
 
-```{r}
+```{r combo, fig.show="hold", out.width = "50%"}
 scales::show_col(combo_pal()(10))
 ```
 

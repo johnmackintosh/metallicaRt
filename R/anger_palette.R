@@ -10,7 +10,7 @@ anger_palette <-  c("#E3001E", "#FE4002", "#000600", "#E70024", "#F3ABB9",
 #' @rdname anger_pal
 #' @examples
 #' library(scales)
-#' show_col(anger_pal()(10))
+#' show_col(anger_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue
