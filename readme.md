@@ -119,122 +119,82 @@ scales::show_col(lightning_pal()(10), labels = FALSE)
 
 ``` r
 metalli_palette("puppets")
+scales::show_col(puppets_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-2-1.png)<!-- -->
-
-``` r
-scales::show_col(puppets_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-3-1.png)<!-- -->
+<img src="man/figures/README-mop-1.png" width="50%" /><img src="man/figures/README-mop-2.png" width="50%" />
 
 ## …And Justice For All
 
 ``` r
 metalli_palette("justice")
+scales::show_col(justice_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-4-1.png)<!-- -->
-
-``` r
-scales::show_col(justice_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-5-1.png)<!-- -->
+<img src="man/figures/README-ajfa-1.png" width="50%" /><img src="man/figures/README-ajfa-2.png" width="50%" />
 
 ## Metallica
 
-How much more black could it be?
+How much more black could it be? Don’t use this.
 
 ``` r
 metalli_palette("metallica")
+scales::show_col(metallica_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-6-1.png)<!-- -->
-
-``` r
-scales::show_col(metallica_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-7-1.png)<!-- -->
+<img src="man/figures/README-metallica-1.png" width="50%" /><img src="man/figures/README-metallica-2.png" width="50%" />
 
 ## Load
 
-Under-rated
-
 ``` r
 metalli_palette("load")
+scales::show_col(load_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-8-1.png)<!-- -->
-
-``` r
-scales::show_col(load_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-9-1.png)<!-- -->
+<img src="man/figures/README-load-1.png" width="50%" /><img src="man/figures/README-load-2.png" width="50%" />
 
 ## Reload
 
 ``` r
 metalli_palette("reload")
+scales::show_col(reload_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-10-1.png)<!-- -->
-
-``` r
-scales::show_col(reload_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-11-1.png)<!-- -->
+<img src="man/figures/README-reload-1.png" width="50%" /><img src="man/figures/README-reload-2.png" width="50%" />
 
 ## St. Anger
 
 ``` r
 metalli_palette("anger")
+scales::show_col(anger_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-12-1.png)<!-- -->
-
-``` r
-scales::show_col(anger_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-13-1.png)<!-- -->
+<img src="man/figures/README-stanger-1.png" width="50%" /><img src="man/figures/README-stanger-2.png" width="50%" />
 
 ## Death Magnetic
 
 ``` r
 metalli_palette("magnetic")
+scales::show_col(magnetic_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-14-1.png)<!-- -->
-
-``` r
-scales::show_col(magnetic_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-15-1.png)<!-- -->
+<img src="man/figures/README-magnetic-1.png" width="50%" /><img src="man/figures/README-magnetic-2.png" width="50%" />
 
 ## Hardwired…To Self Destruct
 
 ``` r
 metalli_palette("hardwired")
+scales::show_col(hardwired_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-16-1.png)<!-- -->
-
-``` r
-scales::show_col(hardwired_pal()(10))
-```
-
-![](man/figures/README-unnamed-chunk-17-1.png)<!-- -->
+<img src="man/figures/README-destruct-1.png" width="50%" /><img src="man/figures/README-destruct-2.png" width="50%" />
 
 ## Metal up your palette
 
+Various colours pilfered from various palettes
+
 ``` r
-scales::show_col(combo_pal()(10))
+scales::show_col(combo_pal()(10), labels = FALSE)
 ```
 
-![](man/figures/README-unnamed-chunk-18-1.png)<!-- -->
+<img src="man/figures/README-combo-1.png" width="50%" />

@@ -125,61 +125,41 @@ scales::show_col(lightning_pal()(10), labels = FALSE)
 
 ```{r mop, fig.show="hold", out.width = "50%" }
 metalli_palette("puppets")
-```
-
-```{r}
-scales::show_col(puppets_pal()(10))
+scales::show_col(puppets_pal()(10), labels = FALSE)
 ```
 
 
 ## ...And Justice For All
 
-```{r}
-metalli_palette("justice")
-```
-
-
 ```{r ajfa, fig.show="hold", out.width = "50%" }
-scales::show_col(justice_pal()(10))
+metalli_palette("justice")
+scales::show_col(justice_pal()(10), labels = FALSE)
 ```
 
 ## Metallica
 
-How much more black could it be?
+How much more black could it be? 
+Don't use this.
 
 ```{r metallica,fig.show="hold", out.width = "50%" }
 metalli_palette("metallica")
-```
-
-
-```{r}
-scales::show_col(metallica_pal()(10))
+scales::show_col(metallica_pal()(10), labels = FALSE)
 ```
 
 
 ## Load
-Under-rated
 
 ```{r load,fig.show="hold", out.width = "50%" }
 metalli_palette("load")
+scales::show_col(load_pal()(10), labels = FALSE)
 ```
-
-
-```{r}
-scales::show_col(load_pal()(10))
-```
-
 
 
 ## Reload
 
 ```{r reload, fig.show="hold", out.width = "50%" }
 metalli_palette("reload")
-```
-
-
-```{r}
-scales::show_col(reload_pal()(10))
+scales::show_col(reload_pal()(10), labels = FALSE)
 ```
 
 
@@ -187,42 +167,30 @@ scales::show_col(reload_pal()(10))
 
 ```{r stanger, fig.show="hold", out.width = "50%" }
 metalli_palette("anger")
-```
-
-
-```{r}
-scales::show_col(anger_pal()(10))
+scales::show_col(anger_pal()(10), labels = FALSE)
 ```
 
 
 ## Death Magnetic
 
-
 ```{r magnetic, fig.show="hold", out.width = "50%" }
 metalli_palette("magnetic")
+scales::show_col(magnetic_pal()(10), labels = FALSE)
 ```
-
-
-```{r}
-scales::show_col(magnetic_pal()(10))
-```
-
 
 
 ## Hardwired...To Self Destruct
 
 ```{r destruct, fig.show="hold", out.width = "50%" }
 metalli_palette("hardwired")
-```
-
-
-```{r}
-scales::show_col(hardwired_pal()(10))
+scales::show_col(hardwired_pal()(10), labels = FALSE)
 ```
 
 ## Metal up your palette
 
+Various colours pilfered from various palettes
+
 ```{r combo, fig.show="hold", out.width = "50%"}
-scales::show_col(combo_pal()(10))
+scales::show_col(combo_pal()(10), labels = FALSE)
 ```
 
