@@ -10,7 +10,7 @@ justice_palette <- c("#FFFFEC", "#F3F2DE", "#D7D9CC", "#000200", "#D2D4C7",
 #' @rdname justice_pal
 #' @examples
 #' library(scales)
-#' show_col(justice_pal()(10))
+#' show_col(justice_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

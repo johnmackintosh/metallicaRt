@@ -10,7 +10,7 @@ puppets_palette <- c("#000000", "#FFFFFF", "#8C031F", "#CDC6B3", "#330B09",
 #' @rdname puppets_pal
 #' @examples
 #' library(scales)
-#' show_col(puppets_pal()(10))
+#' show_col(puppets_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

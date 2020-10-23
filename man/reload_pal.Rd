@@ -87,7 +87,7 @@ reload palette
 }
 \examples{
 library(scales)
-show_col(reload_pal()(10))
+show_col(reload_pal()(10),labels = FALSE)
 
 library(ggplot2)
 ggplot(airquality, aes(x = Day, y = Temp,

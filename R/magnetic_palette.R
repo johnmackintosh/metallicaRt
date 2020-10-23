@@ -10,7 +10,7 @@ magnetic_palette <-  c("#FFFFFD", "#030000", "#F3F2F0", "#E0DCD9", "#231C16",
 #' @rdname magnetic_pal
 #' @examples
 #' library(scales)
-#' show_col(magnetic_pal()(10))
+#' show_col(magnetic_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

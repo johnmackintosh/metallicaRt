@@ -10,7 +10,7 @@ hardwired_palette <- c("#FFFFFF", "#000000", "#440000", "#353535", "#ACACAC" ,
 #' @rdname hardwired_pal
 #' @examples
 #' library(scales)
-#' show_col(hardwired_pal()(10))
+#' show_col(hardwired_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

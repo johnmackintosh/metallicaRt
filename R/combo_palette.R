@@ -10,7 +10,7 @@ combo_palette <-  c("#9a9693","#e3e3d1", "#a9aec0", "#39497d", "#61a28b",
 #' @rdname combo_pal
 #' @examples
 #' library(scales)
-#' show_col(combo_pal()(10))
+#' show_col(combo_pal()(10),,labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

@@ -87,7 +87,7 @@ load palette
 }
 \examples{
 library(scales)
-show_col(load_pal()(10))
+show_col(load_pal()(10),labels = FALSE)
 
 library(ggplot2)
 ggplot(airquality, aes(x = Day, y = Temp,

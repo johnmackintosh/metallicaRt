@@ -87,7 +87,7 @@ justice palette
 }
 \examples{
 library(scales)
-show_col(justice_pal()(10))
+show_col(justice_pal()(10),labels = FALSE)
 
 library(ggplot2)
 ggplot(airquality, aes(x = Day, y = Temp,

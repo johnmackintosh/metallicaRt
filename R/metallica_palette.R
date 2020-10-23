@@ -10,7 +10,7 @@ metallica_palette <- c("#000000", "#000002", "#030303", "#050608", "#1D2122",
 #' @rdname metallica_pal
 #' @examples
 #' library(scales)
-#' show_col(metallica_pal()(10))
+#' show_col(metallica_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

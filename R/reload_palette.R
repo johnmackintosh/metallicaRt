@@ -10,7 +10,7 @@ reload_palette <-  c("#000000", "#A8A8A8", "#AE0115", "#FFFFFF", "#FDC101",
 #' @rdname reload_pal
 #' @examples
 #' library(scales)
-#' show_col(reload_pal()(10))
+#' show_col(reload_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

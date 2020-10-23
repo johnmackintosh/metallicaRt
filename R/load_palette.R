@@ -10,7 +10,7 @@ load_palette <-  c("#000000", "#101010", "#B1B1B1", "#FFFFFF", "#717171",
 #' @rdname load_pal
 #' @examples
 #' library(scales)
-#' show_col(load_pal()(10))
+#' show_col(load_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

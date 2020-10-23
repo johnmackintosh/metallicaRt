@@ -10,7 +10,7 @@ lightning_palette <- c("#030305", "#1D1638", "#090712", "#1E183C", "#FBFFFF",
 #' @rdname lightning_pal
 #' @examples
 #' library(scales)
-#' show_col(lightning_pal()(10))
+#' show_col(lightning_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue

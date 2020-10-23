@@ -10,7 +10,7 @@ killem_palette <- c("#000000", "#E4E6D8", "#A8A8A8", "#CE0000", "#FF0204",
 #' @rdname killem_pal
 #' @examples
 #' library(scales)
-#' show_col(killem_pal()(10))
+#' show_col(killem_pal()(10),labels = FALSE)
 #' @export
 #' @importFrom scales manual_pal
 #' @importFrom glue glue
