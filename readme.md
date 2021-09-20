@@ -3,9 +3,6 @@ metallicaRt
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master)](https://travis-ci.com/johnmackintosh/metallicaRt)
-
 ![R-CMD-check](https://github.com/johnmackintosh/metallicaRt/workflows/R-CMD-check/badge.svg)
 
 <!-- badges: end -->
