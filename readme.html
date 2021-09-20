@@ -79,7 +79,7 @@
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
+    <span class="fas fa-home fa-lg"></span>
      
   </a>
 </li>
@@ -90,7 +90,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/johnmackintosh/metallicaRt/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -114,7 +114,6 @@
 <div id="metallicart" class="section level1">
 
 <!-- badges: start -->
-<p><a href="https://travis-ci.com/johnmackintosh/metallicaRt"><img src="https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master" alt="Travis build status"></a></p>
 <p><img src="https://github.com/johnmackintosh/metallicaRt/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></p>
 <!-- badges: end -->
 </div>
@@ -153,33 +152,33 @@
 <h2 class="hasAnchor">
 <a href="#i-need-this-in-my-life" class="anchor"></a>I need this in my life</h2>
 <p>Of course you do. This will not go to CRAN, so please install using the remotes package.</p>
-<div class="sourceCode" id="cb1"><pre class="downlit">
-<span class="co">#library(remotes)</span>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="co">#library(remotes)</span>
 <span class="co">#remotes::install_github("johnmackintosh/metallicaRt")</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/johnmackintosh/metallicaRt">metallicaRt</a></span><span class="op">)</span>
 <span class="co">#&gt; Warning: replacing previous import 'vctrs::data_frame' by 'tibble::data_frame'</span>
-<span class="co">#&gt; when loading 'dplyr'</span></pre></div>
+<span class="co">#&gt; when loading 'dplyr'</span></code></pre></div>
 </div>
 <div id="data-viz-friendly" class="section level2">
 <h2 class="hasAnchor">
 <a href="#data-viz-friendly" class="anchor"></a>Data Viz Friendly</h2>
 <p>These mini palettes <em>might</em> actually be useful.</p>
 <p>All named after a song title from the relevant album</p>
-<div class="sourceCode" id="cb2"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"whiplash"</span><span class="op">)</span>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"whiplash"</span><span class="op">)</span>
 <span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"bells"</span><span class="op">)</span>
 <span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"orion"</span><span class="op">)</span>
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"blackened"</span><span class="op">)</span></pre></div>
+<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"blackened"</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-first4-1.png" width="25%"><img src="man/figures/README-first4-2.png" width="25%"><img src="man/figures/README-first4-3.png" width="25%"><img src="man/figures/README-first4-4.png" width="25%"></p>
-<div class="sourceCode" id="cb3"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"roam"</span><span class="op">)</span>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"roam"</span><span class="op">)</span>
 <span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"bleeding"</span><span class="op">)</span>
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"fuel"</span><span class="op">)</span></pre></div>
+<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"fuel"</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-roam-1.png" width="33%"><img src="man/figures/README-roam-2.png" width="33%"><img src="man/figures/README-roam-3.png" width="33%"></p>
-<div class="sourceCode" id="cb4"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"frantic"</span><span class="op">)</span>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"frantic"</span><span class="op">)</span>
 <span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"scarred"</span><span class="op">)</span>
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"revenge"</span><span class="op">)</span></pre></div>
+<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"revenge"</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-frantic-1.png" width="33%"><img src="man/figures/README-frantic-2.png" width="33%"><img src="man/figures/README-frantic-3.png" width="33%"></p>
 </div>
 <div id="gimme-fuel-gimme-fire-longer-palettes-i-desire" class="section level2">
@@ -192,89 +191,89 @@
 <div id="kill-em-all" class="section level1">
 <h1 class="hasAnchor">
 <a href="#kill-em-all" class="anchor"></a>Kill ’Em All</h1>
-<div class="sourceCode" id="cb5"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"kill"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/killem_pal.html">killem_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"kill"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/killem_pal.html">killem_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-kill-1.png" width="50%"><img src="man/figures/README-kill-2.png" width="50%"></p>
 <div id="ride-the-lightning" class="section level2">
 <h2 class="hasAnchor">
 <a href="#ride-the-lightning" class="anchor"></a>Ride The Lightning</h2>
-<div class="sourceCode" id="cb6"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"rtl"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/lightning_pal.html">lightning_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"rtl"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/lightning_pal.html">lightning_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-rtl-1.png" width="50%"><img src="man/figures/README-rtl-2.png" width="50%"></p>
 </div>
 <div id="master-of-puppets" class="section level2">
 <h2 class="hasAnchor">
 <a href="#master-of-puppets" class="anchor"></a>Master of Puppets</h2>
-<div class="sourceCode" id="cb7"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"puppets"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/puppets_pal.html">puppets_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"puppets"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/puppets_pal.html">puppets_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-mop-1.png" width="50%"><img src="man/figures/README-mop-2.png" width="50%"></p>
 </div>
 <div id="and-justice-for-all" class="section level2">
 <h2 class="hasAnchor">
 <a href="#and-justice-for-all" class="anchor"></a>…And Justice For All</h2>
-<div class="sourceCode" id="cb8"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"justice"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/justice_pal.html">justice_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"justice"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/justice_pal.html">justice_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-ajfa-1.png" width="50%"><img src="man/figures/README-ajfa-2.png" width="50%"></p>
 </div>
 <div id="metallica" class="section level2">
 <h2 class="hasAnchor">
 <a href="#metallica" class="anchor"></a>Metallica</h2>
 <p>How much more black could it be? Don’t use this.</p>
-<div class="sourceCode" id="cb9"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"metallica"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/metallica_pal.html">metallica_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"metallica"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/metallica_pal.html">metallica_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-metallica-1.png" width="50%"><img src="man/figures/README-metallica-2.png" width="50%"></p>
 </div>
 <div id="load" class="section level2">
 <h2 class="hasAnchor">
 <a href="#load" class="anchor"></a>Load</h2>
-<div class="sourceCode" id="cb10"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"load"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/load_pal.html">load_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"load"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/load_pal.html">load_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-load-1.png" width="50%"><img src="man/figures/README-load-2.png" width="50%"></p>
 </div>
 <div id="reload" class="section level2">
 <h2 class="hasAnchor">
 <a href="#reload" class="anchor"></a>Reload</h2>
-<div class="sourceCode" id="cb11"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"reload"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/reload_pal.html">reload_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"reload"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/reload_pal.html">reload_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-reload-1.png" width="50%"><img src="man/figures/README-reload-2.png" width="50%"></p>
 </div>
 <div id="st-anger" class="section level2">
 <h2 class="hasAnchor">
 <a href="#st-anger" class="anchor"></a>St. Anger</h2>
-<div class="sourceCode" id="cb12"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"anger"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/anger_pal.html">anger_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"anger"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/anger_pal.html">anger_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-stanger-1.png" width="50%"><img src="man/figures/README-stanger-2.png" width="50%"></p>
 </div>
 <div id="death-magnetic" class="section level2">
 <h2 class="hasAnchor">
 <a href="#death-magnetic" class="anchor"></a>Death Magnetic</h2>
-<div class="sourceCode" id="cb13"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"magnetic"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/magnetic_pal.html">magnetic_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"magnetic"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/magnetic_pal.html">magnetic_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-magnetic-1.png" width="50%"><img src="man/figures/README-magnetic-2.png" width="50%"></p>
 </div>
 <div id="hardwiredto-self-destruct" class="section level2">
 <h2 class="hasAnchor">
 <a href="#hardwiredto-self-destruct" class="anchor"></a>Hardwired…To Self Destruct</h2>
-<div class="sourceCode" id="cb14"><pre class="downlit">
-<span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"hardwired"</span><span class="op">)</span>
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/hardwired_pal.html">hardwired_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/metalli_palette.html">metalli_palette</a></span><span class="op">(</span><span class="st">"hardwired"</span><span class="op">)</span>
+<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/hardwired_pal.html">hardwired_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-destruct-1.png" width="50%"><img src="man/figures/README-destruct-2.png" width="50%"></p>
 </div>
 <div id="metal-up-your-palette" class="section level2">
 <h2 class="hasAnchor">
 <a href="#metal-up-your-palette" class="anchor"></a>Metal up your palette</h2>
 <p>Various colours pilfered from various palettes</p>
-<div class="sourceCode" id="cb15"><pre class="downlit">
-<span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/combo_pal.html">combo_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></pre></div>
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="reference/combo_pal.html">combo_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>, labels <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></code></pre></div>
 <p><img src="man/figures/README-combo-1.png" width="50%"></p>
 </div>
 </div>
