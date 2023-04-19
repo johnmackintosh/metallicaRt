@@ -52,8 +52,6 @@ remotes package.
 #library(remotes)
 #remotes::install_github("johnmackintosh/metallicaRt")
 library(metallicaRt)
-#> Warning: replacing previous import 'vctrs::data_frame' by 'tibble::data_frame'
-#> when loading 'dplyr'
 ```
 
 ## Data Viz Friendly
@@ -83,9 +81,10 @@ metalli_palette("fuel")
 metalli_palette("frantic")
 metalli_palette("scarred")
 metalli_palette("revenge")
+metalli_palette("inomorata")
 ```
 
-<img src="man/figures/README-frantic-1.png" width="33%" /><img src="man/figures/README-frantic-2.png" width="33%" /><img src="man/figures/README-frantic-3.png" width="33%" />
+<img src="man/figures/README-frantic-1.png" width="33%" /><img src="man/figures/README-frantic-2.png" width="33%" /><img src="man/figures/README-frantic-3.png" width="33%" /><img src="man/figures/README-frantic-4.png" width="33%" />
 
 ## Gimme fuel, gimme fire, longer palettes I desire
 
@@ -185,6 +184,14 @@ scales::show_col(hardwired_pal()(10), labels = FALSE)
 ```
 
 <img src="man/figures/README-destruct-1.png" width="50%" /><img src="man/figures/README-destruct-2.png" width="50%" />
+
+## 72 Seasons
+
+``` r
+metalli_palette("seasons")
+```
+
+<img src="man/figures/README-seasons-1.png" width="50%" />
 
 ## Metal up your palette
 

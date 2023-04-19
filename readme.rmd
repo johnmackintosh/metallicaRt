@@ -14,8 +14,7 @@ knitr::opts_chunk$set(
 ```
 
 <!-- badges: start -->
-  [![Travis build status](https://travis-ci.com/johnmackintosh/metallicaRt.svg?branch=master)](https://travis-ci.com/johnmackintosh/metallicaRt)
- 
+
 ![R-CMD-check](https://github.com/johnmackintosh/metallicaRt/workflows/R-CMD-check/badge.svg)  
   
   <!-- badges: end -->
@@ -92,6 +91,7 @@ metalli_palette("fuel")
 metalli_palette("frantic")
 metalli_palette("scarred")
 metalli_palette("revenge")
+metalli_palette("inomorata")
 ```
 
 
@@ -185,6 +185,15 @@ scales::show_col(magnetic_pal()(10), labels = FALSE)
 metalli_palette("hardwired")
 scales::show_col(hardwired_pal()(10), labels = FALSE)
 ```
+
+
+## 72 Seasons
+
+```{r seasons, fig.show="hold", out.width = "50%" }
+metalli_palette("seasons")
+```
+
+
 
 ## Metal up your palette
 

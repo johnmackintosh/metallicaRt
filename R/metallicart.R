@@ -9,6 +9,7 @@ met_palettes <- list(
  anger = c("#8E837F","#d5ada2","#782920","#f24108","#e4041f","#240b0a", "#000000"),
  magnetic = c("#2d2520","#e8e6e4","#837F7C","#625c58","#7f7c7a","#9a9693", "#000000"),
  hardwired = c("#C8C8C8","#61a28b","#e7cd9b","#7E4611","#a93119", "#2c2625","#000000"),
+ seasons = c("#fffba8","#ffff01","#b39c00","#836800",  "#888752", "#2D2819", "#000000"),
  
  whiplash = c("#E10A07", "#D4D3C3", "#070505","#443C2C"),
  bells = c("#171732", "#B0B4C8", "#8394BA","#5F74A6"),
@@ -19,8 +20,9 @@ met_palettes <- list(
  fuel = c("#090707", "#E5590B", "#ABA7A7","#ECD492"),
  frantic = c("#1D0A09", "#DD2414", "#D3B1A2","#928281"),
  scarred = c("#CBC9C7", "#251E19", "#554D48","#686661"),
- revenge = c("#372421", "#E2B29B", "#7CA896","#6C8C8C")
- 
+ revenge = c("#372421", "#E2B29B", "#7CA896","#6C8C8C"),
+ inomorata = c("#E8E690", "#EDEA15","#856D0B", "#2A230F")
+
  )
 
 
@@ -38,7 +40,7 @@ met_palettes <- list(
 #' \code{metallica}, \code{metallica10}, \code{load},\code{load10},
 #' \code{reload}, \code{reload10}, \code{anger}, \code{anger10}, 
 #' \code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10}, 
-#' \code{combo}
+#' \code{seasons}, \code{seasons10}, \code{combo}, \code{inomorata}
 #'
 #' @param n Number of colors desired. 
 #' 
