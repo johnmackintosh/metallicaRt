@@ -84,7 +84,7 @@ metalli_palette("revenge")
 metalli_palette("inomorata")
 ```
 
-<img src="man/figures/README-frantic-1.png" width="33%" /><img src="man/figures/README-frantic-2.png" width="33%" /><img src="man/figures/README-frantic-3.png" width="33%" /><img src="man/figures/README-frantic-4.png" width="33%" />
+<img src="man/figures/README-frantic-1.png" width="25%" /><img src="man/figures/README-frantic-2.png" width="25%" /><img src="man/figures/README-frantic-3.png" width="25%" /><img src="man/figures/README-frantic-4.png" width="25%" />
 
 ## Gimme fuel, gimme fire, longer palettes I desire
 
@@ -189,9 +189,10 @@ scales::show_col(hardwired_pal()(10), labels = FALSE)
 
 ``` r
 metalli_palette("seasons")
+scales::show_col(seasons_pal()(10), labels = FALSE)
 ```
 
-<img src="man/figures/README-seasons-1.png" width="50%" />
+<img src="man/figures/README-seasons-1.png" width="50%" /><img src="man/figures/README-seasons-2.png" width="50%" />
 
 ## Metal up your palette
 

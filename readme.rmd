@@ -87,7 +87,7 @@ metalli_palette("fuel")
 
 
 
-```{r frantic, fig.show="hold", out.width = "33%"}
+```{r frantic, fig.show="hold", out.width = "25%"}
 metalli_palette("frantic")
 metalli_palette("scarred")
 metalli_palette("revenge")
@@ -191,6 +191,7 @@ scales::show_col(hardwired_pal()(10), labels = FALSE)
 
 ```{r seasons, fig.show="hold", out.width = "50%" }
 metalli_palette("seasons")
+scales::show_col(seasons_pal()(10), labels = FALSE)
 ```
 
 

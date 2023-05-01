@@ -40,7 +40,7 @@ met_palettes <- list(
 #' \code{metallica}, \code{metallica10}, \code{load},\code{load10},
 #' \code{reload}, \code{reload10}, \code{anger}, \code{anger10}, 
 #' \code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10}, 
-#' \code{seasons}, \code{seasons10}, \code{combo}, \code{inomorata}
+#' \code{seasons10}, \code{seasons}, \code{combo}, \code{inomorata}
 #'
 #' @param n Number of colors desired. 
 #' 

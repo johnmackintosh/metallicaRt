@@ -13,7 +13,7 @@ metalli_palette(name, n, type = c("discrete", "continuous"))
 \code{metallica}, \code{metallica10}, \code{load},\code{load10},
 \code{reload}, \code{reload10}, \code{anger}, \code{anger10},
 \code{magnetic}, \code{magnetic10}, \code{hardwired}, \code{hardwired10},
-\code{combo}}
+\code{seasons10}, \code{seasons}, \code{combo}, \code{inomorata}}
 
 \item{n}{Number of colors desired.
 
